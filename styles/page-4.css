@@ -1,11 +1,63 @@
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 body {
 font-family: Georgia, serif;
 margin: 0;
-padding: 0;
+padding: 40px 60px;
+max-width: 900px;
 }
 
 header {
     background:white;
     color: rgb(82, 137, 154);
     padding: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(82, 137, 154);
+    text-decoration: none;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+img {
+    width: 60%;
+    height: auto;
+    float: left;
+    margin-top: top;
+    display: block;
+
+}
+nav a {
+    text-decoration: none;
+    color: rgb(82, 137, 154);
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+footer {
+    background: rgb(82, 137, 154);
+    color: white;
+    text-align: right;
+    padding: 20px;
+}
+.pull-quote {
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(82, 137, 154);
+    margin-top: 20px;
 }
