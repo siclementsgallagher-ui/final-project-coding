@@ -1,0 +1,11 @@
+body {
+font-family: Georgia, serif;
+margin: 0;
+padding: 0;
+}
+
+header {
+    background:white;
+    color: rgb(82, 137, 154);
+    padding: 20px;
+}
