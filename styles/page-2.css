@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #e8e4e0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40px 20px;
+}
+.page {
+    background: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.hero-image img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+.article-header {
+    padding: 30px 40px 20px;
+    border-bottom: 1px solid #ddd; 
+}
+h1 {
+    font-size: 4rem;
+    line-height: 1;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.bold {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.outline {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    -webbkit-text-stroke: 2px black;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    text-align: center;
+    font-style: italic;
+    color: #333;
+}
+
+.article-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    padding: 24px 40px;
+    align-items:start;
+}
+
+.column p {
+    font-size: 0.85rem;
+    line-height: 2;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+.column strong {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.contact {
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 2px solid black;
+    font-size: 0.8rem;
+    line-height: 1.8;
+}
+
+.article-footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color:#666;
+    padding: 20px 40px 0;
+    border-top: 1px solid #ddd;
+}
