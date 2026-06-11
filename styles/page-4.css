@@ -28,17 +28,15 @@ nav a {
     text-decoration: none;
 }
 
-.columns {
+.pure-u-1-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
-img {
-    width: 60%;
+.pure-u-1-2 img {
+    width: 100%;
     height: auto;
-    float: left;
-    margin-top: top;
     display: block;
 
 }
@@ -49,15 +47,16 @@ nav a {
     font-size: 14px;
 }
 
-footer {
-    background: rgb(82, 137, 154);
-    color: white;
-    text-align: right;
-    padding: 20px;
-}
 .pull-quote {
     font-size: 18px;
     font-style: italic;
     color: rgb(82, 137, 154);
     margin-top: 20px;
+}
+
+footer {
+    background: rgb(82, 137, 154);
+    color: white;
+    text-align: right;
+    padding: 20px;
 }

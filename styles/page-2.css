@@ -8,6 +8,12 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 40px 20px;
 }
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
 .page {
     background: #fff;
     max-width: 900px;
