@@ -51,21 +51,25 @@ p {
     text-wrap: balance;
 }
 
+.navbar {
+  text-align: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid#aaa;
+  padding-bottom: 5px;
+}
+
 nav {
-    margin-bottom: 28px;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    padding: 10px 0;
+    margin-top: 20px;
 }
-
 nav a {
-    margin-right: 16px;
     text-decoration: none;
-    color: #555;
+    color: #aaa;
     font-size: 0.9rem;
-    background-color: #ddd;
-    background:#d0cfcf;
-}
-
-nav a:hover {
-    color: #000;
+    font-weight: normal;
 }
 img {
     width: 100%;
@@ -84,4 +88,10 @@ footer {
     color: #aaa;
     letter-spacing: 0.08em;
 }
+@media screen and (max-width: 768px) {
+    /* tablet styles */
+}
 
+@media screen and (max-width: 480px) {
+    /* mobile styles */
+}

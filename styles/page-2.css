@@ -105,3 +105,11 @@ h1 {
     padding: 20px 40px 0;
     border-top: 1px solid #ddd;
 }
+
+@media screen and (max-width: 768px) {
+    /* tablet styles */
+}
+
+@media screen and (max-width: 480px) {
+    /* mobile styles */
+}
